@@ -6,12 +6,13 @@
 @import "global/vars";
 @import "global/base";
 @import "global/common";
+@import "global/sprite";
 
 
 
 @import "sections/tags";
 @import "sections/socials";
-
+@import "sections/subscription";
 
 aside {
   min-width: 320px;
