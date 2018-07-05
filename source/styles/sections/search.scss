@@ -1,0 +1,45 @@
+#search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px 10px 10px 20px;
+  width: auto;
+  max-width: 480px;
+  border-radius: 10px;
+  background: #5d6b7d;
+  color: #fff;
+  transition: all 0.5s;
+
+  &:hover,
+  &:focus {
+    background: #596677;
+  }
+
+  button,
+  input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+  }
+
+  button {
+    cursor: pointer;
+    padding: 0 5px;
+  }
+
+  input {
+    flex: 1;
+
+    &::-webkit-input-placeholder {
+      color: #fff;
+    }
+
+    &::placeholder {
+      color: #fff;
+    }
+  }
+}
+
+
+
