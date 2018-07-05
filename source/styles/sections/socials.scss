@@ -1,0 +1,73 @@
+$fb-cl: #3B579D;
+$twt-cl: #00ACED;
+$gp-cl: #DD4A3A;
+$in-cl: #007BB6;
+$pin-cl: #CB2026;
+
+.social-nav {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin: 10px auto;
+  li {
+    display: inline-block;
+  }
+  a {
+    display: inline-block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    background: #000;
+    position: relative;
+    transition-duration: 0.5s;
+  }
+}
+
+.linear-anim {
+  a {
+    overflow: hidden;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 0 3px;
+    &:hover {
+      background: #eee;
+    }
+  }
+
+  .twitter {
+    background: $twt-cl;
+    &:hover {
+      color: $twt-cl;
+    }
+  }
+  .facebook {
+    background: $fb-cl;
+    &:hover {
+      color: $fb-cl
+    }
+  }
+  .google-plus {
+    background: $gp-cl;
+    &:hover {
+      color: $gp-cl
+    }
+  }
+  .linkedin {
+    background: $in-cl;
+    &:hover {
+      color: $in-cl
+    }
+  }
+  .pinterest {
+    background: $pin-cl;
+    &:hover {
+      color: $pin-cl
+    }
+  }
+}
