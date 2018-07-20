@@ -13,6 +13,7 @@
     width: 64px;
     height: 64px;
     border-radius: 50%;
+    border: 2px solid #dde1e2;
     opacity: 0;
     transform: scale(.1);
     animation: popup .5s cubic-bezier(1, 0, 0, 1.5) forwards;
@@ -51,6 +52,18 @@
       border: 8px solid transparent;
       border-right-color: #dde1e2;
       border-top-color: #dde1e2;
+    }
+  }
+
+  @media all and (max-width: 340px) {
+    .comment-image {
+      height: 40px;
+      width: 40px;
+    }
+
+    .comment-dialog {
+      padding: 8px;
+      margin-left: 15px;
     }
   }
 

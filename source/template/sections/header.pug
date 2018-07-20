@@ -1,0 +1,18 @@
+.wrapper-header
+    input#toggle-menu(type="checkbox")
+    label.menu-on(for="toggle-menu")
+        i.fa.fa-bars(aria-hidden="true")
+        i.fa.fa-times(aria-hidden="true")
+    label.menu-off(for="toggle-menu")
+
+    img.logo_header(src="images/logo.png")
+
+    .wrapper-settings
+        include ../sections/socials
+        include ../sections/search
+
+    nav.primary-nav
+        a.nav_link(href="#") home
+        a.nav_link(href="#") contact
+        a.nav_link(href="#") about us
+        a.nav_link(href="#") FAQ

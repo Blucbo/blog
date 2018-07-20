@@ -38,7 +38,7 @@ gulp.task('styles:compile', function () {
             browsers: ['last 10 versions'],
             cascade: false
         }))
-        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
         .pipe(rename('main.min.css'))
         .pipe(gulp.dest('build/css'));
 });

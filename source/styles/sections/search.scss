@@ -1,11 +1,12 @@
-#search {
+.search {
+  max-height: 38px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 10px 0 10px 0;
   padding: 10px 10px 10px 20px;
   width: auto;
-  max-width: 480px;
+  //max-width: 480px;
   border-radius: 10px;
   background: #5d6b7d;
   color: #fff;

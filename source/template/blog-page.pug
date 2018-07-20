@@ -8,12 +8,167 @@ html(lang='ru')
         link(rel="stylesheet" href="css/main.min.css")
         title Blog
     body
-        .wrapper
-            .container
-                aside
-                    include sections/tags
-                    include sections/socials
-                    include sections/subscription
-                    include sections/search
-                    include sections/card-author
-                    include sections/comments
+    .wrapper-page
+        header#pageHeader
+            include sections/header
+        article#mainArticle
+            main.grid
+                .item
+                    .card
+                        .card-header
+                            .card-header-mask
+                        .card-body
+                            .card-body-header
+                                .card-body-header-popular
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                h3.card-title True Paradise on Earth: Unknown Place
+                                p.card-body-header-sentence
+                                    | They call it
+                                    span "
+                                    | God's Own Country.
+                                    span "
+                            .card-body-footer
+                                i.icon.icon-time
+                                |  18:00
+                                i.icon.icon-comment
+                                |  39 comments
+                .item
+                    .card
+                        .card-header
+                            .card-header-mask
+                        .card-body
+                            .card-body-header
+                                .card-body-header-popular
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                h3.card-title True Paradise on Earth: Unknown Place
+                                p.card-body-header-sentence
+                                    | They call it
+                                    span "
+                                    | God's Own Country.
+                                    span "
+                            .card-body-footer
+                                i.icon.icon-time
+                                |  12:00
+                                i.icon.icon-comment
+                                |  39 comments
+                .item
+                    .card
+                        .card-header
+                            .card-header-mask
+                        .card-body
+                            .card-body-header
+                                .card-body-header-popular
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                h3.card-title True Paradise on Earth: Unknown Place
+                                p.card-body-header-sentence
+                                    | They call it
+                                    span "
+                                    | God's Own Country.
+                                    span "
+                            .card-body-footer
+                                i.icon.icon-time
+                                |  13:00
+                                i.icon.icon-comment
+                                |  39 comments
+                .item
+                    .card
+                        .card-header
+                            .card-header-mask
+                        .card-body
+                            .card-body-header
+                                .card-body-header-popular
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                h3.card-title True Paradise on Earth: Unknown Place
+                                p.card-body-header-sentence
+                                    | They call it
+                                    span "
+                                    | God's Own Country.
+                                    span "
+                            .card-body-footer
+                                i.icon.icon-time
+                                |  15:00
+                                i.icon.icon-comment
+                                |  39 comments
+                .item
+                    .card
+                        .card-header
+                            .card-header-mask
+                        .card-body
+                            .card-body-header
+                                .card-body-header-popular
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                h3.card-title True Paradise on Earth: Unknown Place
+                                p.card-body-header-sentence
+                                    | They call it
+                                    span "
+                                    | God's Own Country.
+                                    span "
+                            .card-body-footer
+                                i.icon.icon-time
+                                |  8:00
+                                i.icon.icon-comment
+                                |  39 comments
+                .item
+                    .card
+                        .card-header
+                            .card-header-mask
+                        .card-body
+                            .card-body-header
+                                .card-body-header-popular
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                h3.card-title True Paradise on Earth: Unknown Place
+                                p.card-body-header-sentence
+                                    | They call it
+                                    span "
+                                    | God's Own Country.
+                                    span "
+                            .card-body-footer
+                                i.icon.icon-time
+                                |  6:30
+                                i.icon.icon-comment
+                                |  39 comments
+                .item
+                    .card
+                        .card-header
+                            .card-header-mask
+                        .card-body
+                            .card-body-header
+                                .card-body-header-popular
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                    i.fa.fa-star(aria-hidden='true')
+                                h3.card-title True Paradise on Earth: Unknown Place
+                                p.card-body-header-sentence
+                                    | They call it
+                                    span "
+                                    | God's Own Country.
+                                    span "
+                            .card-body-footer
+                                i.icon.icon-time
+                                |  7:40
+                                i.icon.icon-comment
+                                |  39 comments
+        #siteAds
+            .wrapper-aside
+                include sections/card-author
+                include sections/socials
+                include sections/subscription
+                include sections/search
+                include sections/tags
+                include sections/comments
+        footer#pageFooter
+            .content_footer
+                img.logo_footer(src="images/logo.png")
+                p.copyright &copy; 2018 - 2020
+                p.contact_footer contact us
+                    a(href="mailto:skochkobo@gmail.com") Skochko Bohdan
