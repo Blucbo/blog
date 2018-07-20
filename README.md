@@ -8,5 +8,5 @@ Local version 4.0.0-alpha.2
 
 npm i
 
-npm start
+gulp default
 ```
